@@ -3,7 +3,7 @@
 Este projeto é uma aplicação web em **Flask** que permite importar arquivos CSV com informações de jogadores e exibir um ranking interativo.  
 Funcionalidades principais:
 
-- Importar listas de jogadores via CSV (`nome,nivel,pontuacao`);
+- Importar listas de jogadores via CSV (`Nome,Nivel,Pontuacao`);
 - Armazenar dados em SQLite;
 - Exibir ranking ordenado por **pontuação**, com destaque para os 3 primeiros 🥇🥈🥉;
 - Manter histórico de listas importadas;
@@ -32,7 +32,7 @@ C:\Users\aluno\Desktop\ranking_flask
 No **Windows (PowerShell)**:
 ```powershell
 python -m venv venv
-.env\Scriptsctivate
+.\env\Scripts\ctivate
 ```
 
 No **Linux/Mac**:
@@ -85,12 +85,12 @@ ranking_flask/
 O cabeçalho deve ser **exatamente**:
 
 ```
-nome,nivel,pontuacao
+Nome,Nivel,Pontuacao
 ```
 
 Exemplo de conteúdo:
 ```csv
-nome,nivel,pontuacao
+Nome,Nivel,Pontuacao
 Alice,10,1234.5
 Bruno,8,950.0
 Carla,12,1400.3
