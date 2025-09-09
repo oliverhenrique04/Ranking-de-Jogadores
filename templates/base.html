@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ranking de Jogadores</title>
+
+    <!-- Bootswatch (Slate) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/slate/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="{{ url_for('index') }}">Ranking</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          <div class="mt-2">
+            {% for category, message in messages %}
+              <div class="alert alert-{{ category }}" role="alert">{{ message }}</div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endwith %}
+
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="container text-center text-muted my-5">
+      <small>
+        Feito com Flask + Bootstrap (Bootswatch). Tema: Slate.
+      </small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Confirmação bonita para excluir lista -->
+    <script>
+      function confirmDelete(listId, listName) {
+        Swal.fire({
+          title: 'Excluir lista?',
+          html: `Você tem certeza que deseja excluir a lista <b>${listName}</b>?<br><small>Esta ação não pode ser desfeita.</small>`,
+          icon: 'warning',
+          showCancelButton: true,
+          confirmButtonText: 'Sim, excluir',
+          cancelButtonText: 'Cancelar',
+          confirmButtonColor: '#d33',
+          cancelButtonColor: '#3085d6',
+          reverseButtons: true,
+          focusCancel: true
+        }).then((result) => {
+          if (result.isConfirmed) {
+            // Cria e envia form dinamicamente (POST /delete_list)
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = "{{ url_for('delete_list') }}";
+
+            const input = document.createElement('input');
+            input.type = 'hidden';
+            input.name = 'list_id';
+            input.value = listId;
+
+            form.appendChild(input);
+            document.body.appendChild(form);
+            form.submit();
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

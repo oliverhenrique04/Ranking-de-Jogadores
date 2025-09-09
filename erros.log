@@ -1,0 +1,174 @@
+2025-09-09 19:34:17,253 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:34:17,253 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 19:34:17,253 [INFO]  * Restarting with stat
+2025-09-09 19:34:17,409 [WARNING]  * Debugger is active!
+2025-09-09 19:34:17,411 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 19:34:46,056 [INFO] 127.0.0.1 - - [09/Sep/2025 19:34:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-09-09 19:34:46,110 [INFO] 127.0.0.1 - - [09/Sep/2025 19:34:46] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-09-09 19:34:46,112 [INFO] 127.0.0.1 - - [09/Sep/2025 19:34:46] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-09-09 19:34:46,143 [INFO] 127.0.0.1 - - [09/Sep/2025 19:34:46] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Qd8WimwpFOuznnt7FdhE HTTP/1.1" 200 -
+2025-09-09 19:34:46,162 [INFO] 127.0.0.1 - - [09/Sep/2025 19:34:46] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-09 19:37:02,241 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:37:02,241 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 19:37:02,242 [INFO]  * Restarting with stat
+2025-09-09 19:37:02,401 [WARNING]  * Debugger is active!
+2025-09-09 19:37:02,403 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 19:37:06,598 [INFO] 127.0.0.1 - - [09/Sep/2025 19:37:06] "GET / HTTP/1.1" 200 -
+2025-09-09 19:37:06,634 [INFO] 127.0.0.1 - - [09/Sep/2025 19:37:06] "GET /static/custom.css HTTP/1.1" 200 -
+2025-09-09 19:37:06,790 [INFO] 127.0.0.1 - - [09/Sep/2025 19:37:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-09 19:38:27,205 [INFO] Linha 2 inválida: {'row': {'Nome': 'Alice', 'Nivel': '5', 'Pontuacao': '150.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,205 [INFO] Linha 3 inválida: {'row': {'Nome': 'Bruno', 'Nivel': '3', 'Pontuacao': '80.5'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,205 [INFO] Linha 4 inválida: {'row': {'Nome': 'Carla', 'Nivel': '4', 'Pontuacao': '120.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 5 inválida: {'row': {'Nome': 'Daniel', 'Nivel': '2', 'Pontuacao': '50.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 6 inválida: {'row': {'Nome': 'Eduardo', 'Nivel': '6', 'Pontuacao': '200.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 7 inválida: {'row': {'Nome': 'Fernanda', 'Nivel': '3', 'Pontuacao': '90.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 8 inválida: {'row': {'Nome': 'Gabriel', 'Nivel': '4', 'Pontuacao': '110.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 9 inválida: {'row': {'Nome': 'Helena', 'Nivel': '5', 'Pontuacao': '160.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 10 inválida: {'row': {'Nome': 'Igor', 'Nivel': '2', 'Pontuacao': '45.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 11 inválida: {'row': {'Nome': 'Juliana', 'Nivel': '3', 'Pontuacao': '85.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 12 inválida: {'row': {'Nome': 'Karina', 'Nivel': '4', 'Pontuacao': '130.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 13 inválida: {'row': {'Nome': 'Leonardo', 'Nivel': '5', 'Pontuacao': '155.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 14 inválida: {'row': {'Nome': 'Mariana', 'Nivel': '6', 'Pontuacao': '210.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 15 inválida: {'row': {'Nome': 'Nicolas', 'Nivel': '2', 'Pontuacao': '60.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 16 inválida: {'row': {'Nome': 'Olivia', 'Nivel': '3', 'Pontuacao': '95.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 17 inválida: {'row': {'Nome': 'Paulo', 'Nivel': '4', 'Pontuacao': '125.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 18 inválida: {'row': {'Nome': 'Quintino', 'Nivel': '5', 'Pontuacao': '165.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 19 inválida: {'row': {'Nome': 'Rafaela', 'Nivel': '3', 'Pontuacao': '70.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 20 inválida: {'row': {'Nome': 'Samuel', 'Nivel': '2', 'Pontuacao': '55.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,206 [INFO] Linha 21 inválida: {'row': {'Nome': 'Tatiane', 'Nivel': '4', 'Pontuacao': '140.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:38:27,212 [INFO] 127.0.0.1 - - [09/Sep/2025 19:38:27] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 19:38:27,217 [INFO] 127.0.0.1 - - [09/Sep/2025 19:38:27] "GET /?list_id=1 HTTP/1.1" 200 -
+2025-09-09 19:38:27,225 [INFO] 127.0.0.1 - - [09/Sep/2025 19:38:27] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:40:03,177 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:40:03,178 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 19:40:03,178 [INFO]  * Restarting with stat
+2025-09-09 19:40:03,335 [WARNING]  * Debugger is active!
+2025-09-09 19:40:03,337 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 19:40:07,010 [INFO] 127.0.0.1 - - [09/Sep/2025 19:40:07] "GET /?list_id=1 HTTP/1.1" 200 -
+2025-09-09 19:40:07,044 [INFO] 127.0.0.1 - - [09/Sep/2025 19:40:07] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:40:13,619 [INFO] Linha 2 inválida: {'row': {'Nome': 'Alice', 'Nivel': '5', 'Pontuacao': '150.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 3 inválida: {'row': {'Nome': 'Bruno', 'Nivel': '3', 'Pontuacao': '80.5'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 4 inválida: {'row': {'Nome': 'Carla', 'Nivel': '4', 'Pontuacao': '120.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 5 inválida: {'row': {'Nome': 'Daniel', 'Nivel': '2', 'Pontuacao': '50.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 6 inválida: {'row': {'Nome': 'Eduardo', 'Nivel': '6', 'Pontuacao': '200.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 7 inválida: {'row': {'Nome': 'Fernanda', 'Nivel': '3', 'Pontuacao': '90.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 8 inválida: {'row': {'Nome': 'Gabriel', 'Nivel': '4', 'Pontuacao': '110.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 9 inválida: {'row': {'Nome': 'Helena', 'Nivel': '5', 'Pontuacao': '160.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 10 inválida: {'row': {'Nome': 'Igor', 'Nivel': '2', 'Pontuacao': '45.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 11 inválida: {'row': {'Nome': 'Juliana', 'Nivel': '3', 'Pontuacao': '85.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 12 inválida: {'row': {'Nome': 'Karina', 'Nivel': '4', 'Pontuacao': '130.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 13 inválida: {'row': {'Nome': 'Leonardo', 'Nivel': '5', 'Pontuacao': '155.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,619 [INFO] Linha 14 inválida: {'row': {'Nome': 'Mariana', 'Nivel': '6', 'Pontuacao': '210.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 15 inválida: {'row': {'Nome': 'Nicolas', 'Nivel': '2', 'Pontuacao': '60.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 16 inválida: {'row': {'Nome': 'Olivia', 'Nivel': '3', 'Pontuacao': '95.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 17 inválida: {'row': {'Nome': 'Paulo', 'Nivel': '4', 'Pontuacao': '125.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 18 inválida: {'row': {'Nome': 'Quintino', 'Nivel': '5', 'Pontuacao': '165.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 19 inválida: {'row': {'Nome': 'Rafaela', 'Nivel': '3', 'Pontuacao': '70.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 20 inválida: {'row': {'Nome': 'Samuel', 'Nivel': '2', 'Pontuacao': '55.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,620 [INFO] Linha 21 inválida: {'row': {'Nome': 'Tatiane', 'Nivel': '4', 'Pontuacao': '140.0'}, 'errors': {'nome': False, 'nivel': False, 'pontuacao': False}}
+2025-09-09 19:40:13,625 [INFO] 127.0.0.1 - - [09/Sep/2025 19:40:13] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 19:40:13,629 [INFO] 127.0.0.1 - - [09/Sep/2025 19:40:13] "GET /?list_id=2 HTTP/1.1" 200 -
+2025-09-09 19:40:13,638 [INFO] 127.0.0.1 - - [09/Sep/2025 19:40:13] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:42:46,761 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:42:46,761 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 19:42:46,762 [INFO]  * Restarting with stat
+2025-09-09 19:42:46,928 [WARNING]  * Debugger is active!
+2025-09-09 19:42:46,930 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 19:42:50,075 [INFO] 127.0.0.1 - - [09/Sep/2025 19:42:50] "GET /?list_id=2 HTTP/1.1" 200 -
+2025-09-09 19:42:50,111 [INFO] 127.0.0.1 - - [09/Sep/2025 19:42:50] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:42:54,393 [INFO] 127.0.0.1 - - [09/Sep/2025 19:42:54] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 19:42:54,397 [INFO] 127.0.0.1 - - [09/Sep/2025 19:42:54] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:42:54,405 [INFO] 127.0.0.1 - - [09/Sep/2025 19:42:54] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:47:22,335 [INFO] 127.0.0.1 - - [09/Sep/2025 19:47:22] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:47:22,343 [INFO] 127.0.0.1 - - [09/Sep/2025 19:47:22] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:49:34,453 [INFO] 127.0.0.1 - - [09/Sep/2025 19:49:34] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:49:34,460 [INFO] 127.0.0.1 - - [09/Sep/2025 19:49:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:49:57,868 [INFO] 127.0.0.1 - - [09/Sep/2025 19:49:57] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:49:57,877 [INFO] 127.0.0.1 - - [09/Sep/2025 19:49:57] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:50:13,688 [INFO] 127.0.0.1 - - [09/Sep/2025 19:50:13] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:50:13,695 [INFO] 127.0.0.1 - - [09/Sep/2025 19:50:13] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:50:48,451 [INFO] 127.0.0.1 - - [09/Sep/2025 19:50:48] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:50:48,460 [INFO] 127.0.0.1 - - [09/Sep/2025 19:50:48] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:52:10,865 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:10] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:52:10,872 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:10] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:52:38,593 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:38] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:52:38,602 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:38] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:52:54,681 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:54] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:52:54,687 [INFO] 127.0.0.1 - - [09/Sep/2025 19:52:54] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:23,976 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:23] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:53:23,983 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:23] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:31,204 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:31] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 19:53:31,209 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:31] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:31,216 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:31] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:33,678 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:33] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:53:33,686 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:33] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:34,535 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:34] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:34,543 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:35,158 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:35] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:35,166 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:35] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:35,943 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:35] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:53:35,952 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:35] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:36,327 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:36] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:36,335 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:36] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:36,807 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:36] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:53:36,815 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:36] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:37,303 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:37] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:37,310 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:37] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:37,758 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:37] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:37,766 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:37] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:39,039 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:39] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:39,047 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:39,622 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:39] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:39,629 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:40,023 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:40] "GET /?list_id=3 HTTP/1.1" 200 -
+2025-09-09 19:53:40,030 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:40] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:53:40,383 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:40] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:53:40,392 [INFO] 127.0.0.1 - - [09/Sep/2025 19:53:40] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:57:18,468 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 19:57:18,468 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 19:57:18,469 [INFO]  * Restarting with stat
+2025-09-09 19:57:18,629 [WARNING]  * Debugger is active!
+2025-09-09 19:57:18,630 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 19:57:21,527 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:21] "GET /?list_id=4 HTTP/1.1" 200 -
+2025-09-09 19:57:21,561 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:21] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:57:24,270 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:24] "GET / HTTP/1.1" 200 -
+2025-09-09 19:57:24,279 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:57:24,437 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:24] "GET / HTTP/1.1" 200 -
+2025-09-09 19:57:24,445 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:24] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:57:34,311 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:34] "GET / HTTP/1.1" 200 -
+2025-09-09 19:57:34,318 [INFO] 127.0.0.1 - - [09/Sep/2025 19:57:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:58:31,907 [INFO] 127.0.0.1 - - [09/Sep/2025 19:58:31] "[32mPOST /delete_list HTTP/1.1[0m" 302 -
+2025-09-09 19:58:31,912 [INFO] 127.0.0.1 - - [09/Sep/2025 19:58:31] "GET / HTTP/1.1" 200 -
+2025-09-09 19:58:31,919 [INFO] 127.0.0.1 - - [09/Sep/2025 19:58:31] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:59:02,102 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:02] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 19:59:02,105 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:02] "GET /?list_id=5 HTTP/1.1" 200 -
+2025-09-09 19:59:02,113 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:02] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 19:59:04,372 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:04] "[32mPOST /delete_list HTTP/1.1[0m" 302 -
+2025-09-09 19:59:04,379 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:04] "GET / HTTP/1.1" 200 -
+2025-09-09 19:59:04,390 [INFO] 127.0.0.1 - - [09/Sep/2025 19:59:04] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:12,483 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-09 20:04:12,484 [INFO] [33mPress CTRL+C to quit[0m
+2025-09-09 20:04:12,485 [INFO]  * Restarting with stat
+2025-09-09 20:04:12,645 [WARNING]  * Debugger is active!
+2025-09-09 20:04:12,646 [INFO]  * Debugger PIN: 428-305-981
+2025-09-09 20:04:16,330 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:16] "GET / HTTP/1.1" 200 -
+2025-09-09 20:04:16,369 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:16] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:34,182 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:34] "[32mPOST /delete_list HTTP/1.1[0m" 302 -
+2025-09-09 20:04:34,186 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:34] "GET / HTTP/1.1" 200 -
+2025-09-09 20:04:34,196 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:34] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:39,613 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:39] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 20:04:39,618 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:39] "GET /?list_id=6 HTTP/1.1" 200 -
+2025-09-09 20:04:39,627 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:39] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:44,995 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:44] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-09-09 20:04:44,999 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:44] "GET /?list_id=7 HTTP/1.1" 200 -
+2025-09-09 20:04:45,007 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:45] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:47,858 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:47] "GET /?list_id=6 HTTP/1.1" 200 -
+2025-09-09 20:04:47,867 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:47] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -
+2025-09-09 20:04:48,433 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:48] "GET /?list_id=7 HTTP/1.1" 200 -
+2025-09-09 20:04:48,441 [INFO] 127.0.0.1 - - [09/Sep/2025 20:04:48] "[36mGET /static/custom.css HTTP/1.1[0m" 304 -

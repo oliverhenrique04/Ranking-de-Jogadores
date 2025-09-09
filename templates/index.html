@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="row g-4">
+    <div class="col-12 col-lg-4">
+      <div class="card shadow-sm">
+        <div class="card-header">Importar CSV</div>
+        <div class="card-body">
+          <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+              <label class="form-label">Nome da Lista (opcional)</label>
+              <input type="text" class="form-control" name="list_name" placeholder="Ex.: Campeonato Maio 2025" />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Arquivo CSV</label>
+              <input class="form-control" type="file" name="csv_file" accept=".csv" required />
+              <div class="form-text">Cabeçalho esperado: <code>nome,nivel,pontuacao</code></div>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="card shadow-sm mt-4">
+        <div class="card-header">Listas Disponíveis</div>
+        <ul class="list-group list-group-flush">
+          {% if not lists %}
+            <li class="list-group-item">Nenhuma lista importada ainda.</li>
+          {% else %}
+            {% for lst in lists %}
+              <li class="list-group-item p-0">
+                <div class="d-flex align-items-center justify-content-between">
+                  <!-- Link para selecionar a lista -->
+                  <a
+                    href="{{ url_for('index', list_id=lst.id) }}"
+                    class="flex-grow-1 px-3 py-2 text-decoration-none d-block {% if selected and lst.id == selected.id %}active bg-primary text-white{% endif %}"
+                  >
+                    <div class="d-flex w-100 justify-content-between">
+                      <h6 class="mb-0">{{ lst.name }}</h6>
+                      <small>{{ (lst.created_at | replace('T',' '))[:19] }}</small>
+                    </div>
+                  </a>
+
+                  <!-- Botão Excluir (abre SweetAlert2) -->
+                  <div class="px-2">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-danger"
+                      onclick="confirmDelete('{{ lst.id }}', '{{ lst.name|e }}')"
+                    >
+                      Excluir
+                    </button>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-8">
+      <div class="card shadow-sm">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <span>Ranking {% if selected %}— {{ selected.name }}{% endif %}</span>
+          {% if selected %}
+            <span class="badge bg-secondary">{{ players|length }} jogadores</span>
+          {% endif %}
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table align-middle mb-0">
+              <thead class="table-light">
+                <tr>
+                  <th style="width: 80px;">#</th>
+                  <th>Nome</th>
+                  <th class="text-center">Nível</th>
+                  <th class="text-end">Pontuação</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% if players %}
+                  {% for p in players %}
+                    {% set pos = loop.index %}
+                    <tr class="{% if pos <= 3 %}top-{{ pos }}{% endif %}">
+                      <td>
+                        {% if pos == 1 %}
+                          🥇
+                        {% elif pos == 2 %}
+                          🥈
+                        {% elif pos == 3 %}
+                          🥉
+                        {% else %}
+                          {{ pos }}
+                        {% endif %}
+                      </td>
+                      <td>{{ p.nome }}</td>
+                      <td class="text-center">{{ p.nivel }}</td>
+                      <td class="text-end">{{ '%.2f'|format(p.pontuacao) }}</td>
+                    </tr>
+                  {% endfor %}
+                {% else %}
+                  <tr>
+                    <td colspan="4" class="text-center p-4 text-muted">Nenhum dado para exibir.</td>
+                  </tr>
+                {% endif %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
